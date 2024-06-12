@@ -1,0 +1,44 @@
+header{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+}
+#header-row{
+	width:100%;
+}
+
+.navbar.navbar-inverse{
+	--bs-navbar-padding-y: 0;
+	border-radius: 0px;
+}
+
+.container-body{
+	position: relative;
+	min-height: 100vh;
+	margin-top: 80px;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.container-footer{
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+@media (min-width: 768px){
+	.navbar-nav .dropdown-menu{
+		position: absolute;
+	}
+
+	.navbar.navbar-inverse .container-fluid{
+		flex-direction: row;
+	}
+
+	.navbar.navbar-inverse .nav.navbar-nav{
+		flex-direction: row;
+		padding-bottom: 0;
+		padding-right: 20px;
+	}
+}
+
